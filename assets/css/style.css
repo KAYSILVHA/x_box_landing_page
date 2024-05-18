@@ -2,6 +2,34 @@ h2.logo {
     font-family: "Libre Baskerville", serif;
 }
 
-a.nav-link{
+a.nav-link {
     color: #000;
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+}
+
+.card:hover {
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-danger {
+    max-width: 150px;
+}
+
+.cards {
+    padding: 3rem 0 5rem;
+}
+
+.image_2{
+    width: 30rem;
+    height: auto;
+}
+@media screen and (max-width: 991px) {
+    .card {
+        width: 80vw;
+    }
 }
